@@ -25,7 +25,7 @@ body {
 }
 
 
-/* header */
+
 
 .header {
   margin-bottom: 25px;
@@ -47,7 +47,7 @@ body {
 }
 
 
-/* navbar */
+
 
 .navbar {
   margin-bottom: 20px;
@@ -78,7 +78,7 @@ body {
 }
 
 
-/* sidebar */
+
 
 .sidebar {
   float: left;
@@ -115,7 +115,7 @@ body {
 }
 
 
-/* main content */
+
 
 .content {
   float: right;
@@ -140,7 +140,7 @@ body {
 }
 
 
-/* footer */
+
 
 .footer {
   clear: both;
