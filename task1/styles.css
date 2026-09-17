@@ -1,0 +1,126 @@
+:root {
+  --bg: #101318;
+  --card: #1a1e25;
+  --border: #262b34;
+  --text: #eef1f5;
+  --dim: #8b93a1;
+  --accent: #3fc2c9;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Arial, sans-serif;
+}
+
+.page {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+
+
+.navbar {
+  margin-bottom: 40px;
+}
+
+.navbar a {
+  display: inline-block;
+  margin: 4px;
+  padding: 9px 15px;
+
+  background: var(--card);
+  color: var(--dim);
+
+  border: 1px solid var(--border);
+  border-radius: 20px;
+
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+
+
+header {
+  margin-bottom: 30px;
+}
+
+#main-title {
+  font-size: 46px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: var(--dim);
+}
+
+
+
+.card,
+.profile-card {
+  margin-bottom: 16px;
+  padding: 20px;
+
+  background: var(--card);
+
+  border: 1px solid var(--border);
+  border-radius: 14px;
+}
+
+.profile-image {
+  width: 120px;
+  max-width: 100%;
+
+  border-radius: 12px;
+}
+
+.card p,
+.profile-card p,
+li {
+  color: var(--dim);
+  line-height: 1.6;
+}
+
+
+
+.links a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+
+
+footer {
+  margin-top: 30px;
+  padding-top: 15px;
+
+  border-top: 1px solid var(--border);
+
+  color: var(--dim);
+}
+
+
+
+@media screen and (max-width: 600px) {
+  #main-title {
+    font-size: 34px;
+  }
+
+  .page {
+    padding: 15px;
+  }
+}
