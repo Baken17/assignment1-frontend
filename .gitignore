@@ -1,0 +1,10 @@
+# Project dependencies and build files
+node_modules
+dist
+.cache
+
+# IntelliJ IDEA
+.idea/
+
+# macOS system files
+.DS_Store
